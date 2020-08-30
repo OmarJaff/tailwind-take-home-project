@@ -1,14 +1,18 @@
 <template>
-  <li>
+  <ul>
     <slot />
-  </li>
+  </ul>
 </template>
 
 
 <script>
+
 export default {
     props: {
-        items: {type: Array, required: true}
+        // items: {type: Array, required: true}
     },
+    data: () => ({
+        selected: false,
+    })
 }
 </script>
