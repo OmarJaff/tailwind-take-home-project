@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="antialiased mx-4">
-    <div class="flex flex-col divide-y divide-gray-300 space-y-5">
+    <div class="flex flex-col divide-y divide-gray-300 space-y-6">
       <div class="flex mt-12">
         <h1
           class="text-gray-900 font-extrabold text-4xl leading-10 tracking-tight"
@@ -13,7 +13,11 @@
           </p>
         </h1>
       </div>
-      <div>something</div>
+      <div class="flex flex-col">
+        <div class="my-6">
+          <PhotoViewer />
+        </div>
+      </div>
     </div>
 
     <div></div>
@@ -21,8 +25,10 @@
 </template>
 
 <script>
+import PhotoViewer from './components/PhotoViewer';
+
 export default {
   name: 'App',
-  components: {},
+  components: {PhotoViewer},
 }
 </script>
