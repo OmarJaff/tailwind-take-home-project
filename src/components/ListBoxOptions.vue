@@ -1,7 +1,9 @@
 <template>
-  <li tabindex="-1" role="checkbox" aria-selected="true">
-    <slot />
-  </li>
+  <ul tabindex="0">
+    <li role="option">
+      <slot />
+    </li>
+  </ul>
 </template>
 
 

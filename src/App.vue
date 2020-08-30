@@ -19,8 +19,89 @@
         </div>
       </div>
     </div>
+    <div>
+      <p class="text-gray-500 text-sm">Starting at</p>
+      <h1 class="text-gray-900 font-extrabold leading-tight text-5xl">
+        $1,799
+      </h1>
+      <div class="space-y-4 mt-4">
+        <p class="text-gray-900 font-medium">
+          The KEMPER PROFILER™ is the leading-edge digital guitar amplifier and
+          all-in-one effects processor.
+        </p>
+        <p class="text-gray-500">
+          Hailed as a game-changer by guitarists the world over, the PROFILER™
+          is the first digital guitar amp to really nail the full and dynamic
+          sound of a guitar or bass amp.
+        </p>
+        <p class="text-gray-500">
+          This is made possible by a radical, patented technology and concept
+          which we call "PROFILING".
+        </p>
+      </div>
+    </div>
 
-    <div></div>
+    <div class="my-10 space-y-2">
+      <h4 class="text-gray-800 text-xl font-medium">Form Factor</h4>
+      <ul class="space-y-4">
+        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+          <h5 class="text-gray-900 font-medium text-sm">Profiler Head</h5>
+          <p class="text-gray-500 text-sm">
+            Compact amplifier head, perfect for a speaker cabinet or desk.
+          </p>
+        </li>
+        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+          <h5 class="text-gray-900 font-medium text-sm">Profiler Rack</h5>
+          <p class="text-gray-500 text-sm">
+            3U rackmount version of the classic profiling amplifier.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="my-10 space-y-2">
+      <h4 class="text-gray-800 text-xl font-medium">Power Amp</h4>
+      <ul class="space-y-4">
+        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+          <h5 class="text-gray-900 font-medium text-sm">None</h5>
+          <p class="text-gray-500 text-sm">
+            Use in the studio or with your own power amp.
+          </p>
+        </li>
+        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+          <h5 class="text-gray-900 font-medium text-sm">Powered</h5>
+          <div class="flex justify-between">
+            <p class="text-gray-500 text-sm">
+              Built-in 600W solid state power amp.
+            </p>
+            <span class="text-gray-900 text-sm flex-none font-medium"
+              >+ $449</span
+            >
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="my-10 space-y-2">
+      <h4 class="text-gray-800 text-xl font-medium">Foot Controller</h4>
+      <ul class="space-y-4">
+        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+          <div class="flex justify-between">
+            <h5 class="text-gray-900 font-medium text-sm">None</h5>
+            <span class="text-gray-900 text-sm flex-none font-medium"
+              >+ $449</span
+            >
+          </div>
+        </li>
+        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+          <div class="flex justify-between">
+            <h5 class="text-gray-900 font-medium text-sm">
+              Profiler Remote Foot Controller
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
