@@ -7,14 +7,14 @@
         >
           Get your Kemper Profiling Amp
           <p
-            class="text-gray-500 font-medium mt-3.5 leading-normal tracking-tight text-xl"
+            class="text-gray-500 font-normal mt-3.5 leading-normal tracking-tight text-xl"
           >
             All your favorite amps and effects, together in one little box.
           </p>
         </h1>
       </div>
       <div class="flex flex-col">
-        <div class="my-6">
+        <div class="my-8">
           <PhotoViewer />
         </div>
       </div>
