@@ -6,7 +6,7 @@
       <img :src="images[0].src" alt="" />
     </div>
     <div class="flex">
-      <ListBox class="flex w-full space-x-4">
+      <ListBox class="flex w-full space-x-4 justify-between">
         <ListBoxOptions
           v-for="image in images"
           :key="image.id"
