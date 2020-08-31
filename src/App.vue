@@ -102,6 +102,116 @@
         </li>
       </ul>
     </div>
+
+    <div>
+      <table class="flex flex-col max-w-full space-y-2 divide-y">
+        <tr>
+          <th class="font-medium text-xl">
+            Specifications
+          </th>
+          <th></th>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Amp Models
+          </td>
+          <td class="text-xs">
+            200
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Effects Loop
+          </td>
+          <td class="text-xs">
+            Yes
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Inputs
+          </td>
+          <td class="text-xs">
+            2 x 1/4”
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Outputs
+          </td>
+          <td class="text-xs">
+            1 x 1/4”, 2 x XLR, 2 x 1/4”
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            MIDI I/O
+          </td>
+          <td class="text-xs">
+            In/Out/Thru
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Height
+          </td>
+          <td class="text-xs">
+            8.54”
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Width
+          </td>
+          <td class="text-xs">
+            14.88”
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Depth
+          </td>
+          <td class="text-xs">
+            6.81”
+          </td>
+        </tr>
+        <tr
+          class="justify-between flex font-medium text-sm py-4 items-baseline"
+        >
+          <td>
+            Weight
+          </td>
+          <td class="text-xs">
+            11.73 lbs
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="bg-gray-50 fixed h-20 inset-0 top-auto p-4">
+      <div class="flex justify-end items-center space-x-6">
+        <p class="text-gray-900 font-bold text-3xl">$2,717</p>
+        <button class="text-white text-sm bg-cool-gray-900 rounded-md h-9 w-24">
+          Buy now
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
