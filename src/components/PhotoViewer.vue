@@ -1,18 +1,18 @@
 <!-- eslint-disable -->
 
 <template>
-  <div class="space-y-4">
-    <div class="border shadow-sm border-gray-200 rounded-lg p-0.5">
+  <div class="space-y-4 flex-col flex-wrap">
+    <div class="border shadow-sm border-gray-200 rounded-lg p-0.5 w-full">
       <img :src="images[0].src" alt="" />
     </div>
-    <div class="flex">
-      <ListBox class="flex w-full space-x-4 justify-between">
+    <div class="">
+      <ListBox class="flex flex-row space-x-4 justify-between">
         <ListBoxOptions
           v-for="image in images"
           :key="image.id"
-          class="flex justify-center border-gray-200 border rounded-lg shadow-sm h-12 w-28 p-0.5"
+          class="justify-center w-1/3 border-2 border-gray-200 rounded-lg px-3"
         >
-          <img :src="image.src" alt="image.title" class="w-16" />
+          <img :src="image.src" alt="image.title" class="" />
         </ListBoxOptions>
       </ListBox>
     </div>
