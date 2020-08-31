@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mx-auto container">
     <div class="flex flex-row-reverse justify-between">
       <div class="flex justify-end items-center space-x-6">
         <div class="flex flex-col">
