@@ -1,6 +1,6 @@
 <!-- eslint-disable -->
 <template>
-  <div id="app" class="antialiased mx-4 sm:mx-10">
+  <div id="app" class="antialiased mx-4 sm:mx-12 md:mx-28">
     <div class="flex flex-col divide-y divide-gray-300 space-y-6">
       <div class="flex mt-12">
         <h1
@@ -46,7 +46,7 @@
       <h4 class="text-gray-800 text-xl font-medium">Form Factor</h4>
       <ul class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
         <li
-          class="border border-gray-300 rounded-lg py-4 px-6 sm:w-72 space-y-1"
+          class="border border-gray-300 rounded-lg py-5 px-6 space-y-1 sm:w-96"
         >
           <h5 class="text-gray-900 font-medium text-sm">Profiler Head</h5>
           <p class="text-gray-500 text-sm">
@@ -54,7 +54,7 @@
           </p>
         </li>
         <li
-          class="border border-gray-300 rounded-lg py-4 px-6 sm:w-72 space-y-1"
+          class="border border-gray-300 rounded-lg py-5 px-6 space-y-1 sm:w-96"
         >
           <h5 class="text-gray-900 font-medium text-sm">Profiler Rack</h5>
           <p class="text-gray-500 text-sm">
@@ -67,13 +67,13 @@
     <div class="my-10 space-y-2">
       <h4 class="text-gray-800 text-xl font-medium">Power Amp</h4>
       <ul class="space-y-4">
-        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+        <li class="border border-gray-300 rounded-lg py-5 px-6 space-y-1">
           <h5 class="text-gray-900 font-medium text-sm">None</h5>
           <p class="text-gray-500 text-sm">
             Use in the studio or with your own power amp.
           </p>
         </li>
-        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+        <li class="border border-gray-300 rounded-lg py-5 px-6 space-y-1">
           <h5 class="text-gray-900 font-medium text-sm">Powered</h5>
           <div class="flex justify-between">
             <p class="text-gray-500 text-sm">
@@ -90,7 +90,7 @@
     <div class="my-10 space-y-2">
       <h4 class="text-gray-800 text-xl font-medium">Foot Controller</h4>
       <ul class="space-y-4">
-        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+        <li class="border border-gray-300 rounded-lg py-5 px-6 space-y-1">
           <div class="flex justify-between">
             <h5 class="text-gray-900 font-medium text-sm">None</h5>
             <span class="text-gray-900 text-sm flex-none font-medium"
@@ -98,7 +98,7 @@
             >
           </div>
         </li>
-        <li class="border border-gray-300 rounded-lg py-4 px-6 space-y-1">
+        <li class="border border-gray-300 rounded-lg py-5 px-6 space-y-1">
           <div class="flex justify-between">
             <h5 class="text-gray-900 font-medium text-sm">
               Profiler Remote Foot Controller
@@ -113,31 +113,9 @@
     </div>
 
     <div
-      class="bg-gray-50 fixed h-20 sm:h-28 inset-0 top-auto p-4 sm:py-6 sm:px-10"
+      class="bg-gray-50 fixed h-20 sm:h-28 inset-0 top-auto p-4 sm:py-6 sm:px-12 md:px-28"
     >
-      <div class="flex flex-row-reverse justify-between">
-        <div class="flex justify-end items-center space-x-6">
-          <div class="flex flex-col">
-            <p class="text-gray-900 font-bold text-3xl flex self-end">
-              $2,717
-            </p>
-            <div>
-              <span href="#" class="hidden sm:block text-gray-500 text-sm"
-                >Need a financing? <a href="#" class="underline">Learn more</a>
-              </span>
-            </div>
-          </div>
-
-          <button
-            class="text-white text-sm bg-cool-gray-900 rounded-md h-9 w-24"
-          >
-            Buy now
-          </button>
-        </div>
-        <div class="hidden sm:block">
-          <Footer />
-        </div>
-      </div>
+      <Footer />
     </div>
   </div>
 </template>
