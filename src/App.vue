@@ -15,7 +15,7 @@
     </div>
 
     <div
-      class="flex flex-col flex-no-wrap lg:flex-none lg:grid lg:grid-cols-2 lg:my-10 lg:gap-8 mx-auto container"
+      class="flex flex-col flex-no-wrap lg:flex-none lg:grid lg:grid-cols-2 lg:my-10 mx-auto container"
     >
       <div>
         <div class="flex">
@@ -147,7 +147,12 @@
 
   @media (min-width: 1276px) {
     .custom-width {
-      width: 39rem;
+      width: 32rem;
+    }
+  }
+  @media (min-width: 1330px) {
+    .custom-width {
+      width: 35rem;
     }
   }
 }
