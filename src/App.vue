@@ -22,9 +22,8 @@
           <div class="flex flex-col divide-y divide-gray-300 space-y-6">
             <div class="flex flex-col">
               <div
-                class="my-8 lg:my-0"
+                class="my-8 lg:my-0 xl:px-4 custom-width"
                 :class="{ 'lg:fixed lg:top-0 lg:pt-8': isLocked }"
-                style="width: 35rem;"
               >
                 <PhotoViewer />
               </div>
@@ -137,6 +136,22 @@
   </div>
 </template>
 
+<style  scoped>
+.custom-width {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .custom-width {
+    width: 30rem;
+  }
+
+  @media (min-width: 1276px) {
+    .custom-width {
+      width: 39rem;
+    }
+  }
+}
+</style>
 <script>
 import PhotoViewer from './components/PhotoViewer';
 import Footer from './components/Footer';
