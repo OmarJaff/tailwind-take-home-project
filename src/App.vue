@@ -143,6 +143,7 @@
 @media (min-width: 1024px) {
   .custom-width {
     width: 30rem;
+    padding-right: 1.5rem;
   }
 
   @media (min-width: 1276px) {
@@ -153,6 +154,19 @@
   @media (min-width: 1330px) {
     .custom-width {
       width: 35rem;
+      padding-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1380px) {
+    .custom-width {
+      width: 35.5rem;
+      padding-right: 1rem;
+    }
+  }
+  @media (min-width: 1600px) {
+    .custom-width {
+      width: 38.5rem;
     }
   }
 }
