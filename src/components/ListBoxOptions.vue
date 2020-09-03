@@ -1,12 +1,13 @@
 <template>
-  <li
-    tabindex="1"
-    role="option"
+  <button
+    role="tab"
     class="border-2 border-gray-200 rounded-lg px-3"
-    @click="$emit('onToggle')"
+    @click="$emit('onClick')"
+    @keyup.left="$emit('onArrowLeftPressed')"
+    @keyup.right="$emit('onArrowRightPressed')"
   >
     <slot />
-  </li>
+  </button>
 </template>
 
 
